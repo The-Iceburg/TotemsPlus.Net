@@ -1,0 +1,42 @@
+body {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #181818;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    display: inline-block
+  }
+
+.footer img {
+    width: 3%;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+.comingsoon figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(10px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.comingsoon figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.comingsoon figure img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  
